@@ -1,0 +1,66 @@
+{
+    "listings": [
+        {
+            "name": "Charming house w Room Service!",
+            "guests": 4,
+            "bedrooms": 1,
+            "beds": 2,
+            "baths": 1,
+            "pricing": "$95 per night",
+            "id": "yellowhouse1334",
+            "desc": "Keep it simple at this peaceful and centrally-located place. Dog friendly park with play area for kids. Texas Bean and brew provides room service for those late mornings . Close to Texas State University and River Tubing.  Downtown San Marcos only 5 minutes away."
+            
+
+        },
+        {
+            "name": "Close to Texas State University",
+            "guests": 5,
+            "bedrooms": 1,
+            "beds": 4,
+            "baths": 1,
+            "pricing": "$90 per night",
+            "id": "camper27",
+            "desc": "Think of it as glamping with all the conveniences of a hotel!! Tube the  San Marcos River, catch a Texas State Bobcat game, shop at the Outlet Mall or head over to Greune (16mi), Lockhart the BBQ Capitol of Texas (18mi), Schlitterbahn (19mi) or help keep Austin weird (30mi). Your family will truly enjoy the experience. This beautiful camper has full size bunkbeds and a queen in the master. What?? Room service available from The Texas Bean and Brew, on location so you can enjoy breakfast in bed!"
+        },
+        {
+            "name": "Cute little casita. Dog friendly",
+            "guests": 5,
+            "bedrooms": 2,
+            "beds": 3,
+            "baths": 1,
+            "pricing": "$117 per night",
+            "id": "casita1334",
+            "desc": "Need more bedrooms? Keep it simple at this peaceful and centrally-located place. Great restaurant on location with room service available.  Dog friendly. Kid friendly . River tubing  close by.Great restaurants in the area."
+        },
+        {
+            "name": "Mini house w loft. Dog friendly! Room service!",
+            "guests": 5,
+            "bedrooms": 1,
+            "beds": 3,
+            "baths": 1,
+            "pricing": "$88 per night / $129 weekend price",
+            "id": "minihouse1334",
+            "desc": "Your family will be close to everything when you stay at this centrally-located place. Quiet location with Restaurant onsite. Close to Texas State University. Close to river tubing and outlet malls."
+        },
+        {
+            "name": "Texas mini house. Dog friendly. Room Service!",
+            "guests": 3,
+            "bedrooms": 1,
+            "beds": 2,
+            "baths": 1,
+            "pricing": "$95 per night",
+            "id": "red1334",
+            "desc": "Kick back and relax at this cute mini/house. Close to Texas state university , and downtown shopping and nightlife. Close to River tubing."
+        },
+        {
+            "name": "Texas State under the Stars",
+            "guests": 4,
+            "bedrooms": 1,
+            "beds": 2,
+            "baths": 1,
+            "pricing": "$79 per night.",
+            "id": "camper26",
+            "desc": "Your family will be close to everything when you stay at this centrally-located place. 1 mile from San Marcos River. Restaurant in location , called Texas Bean and Brew. With room service. San Marcos outlets close by. Home of Texas state university. Bring your pets and your kids. Enjoy a campfire and outdoor BBQ. This is what summers are made for.. many restaurants to choose from."
+        }
+    ]
+}

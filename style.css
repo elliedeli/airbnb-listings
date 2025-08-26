@@ -1,0 +1,46 @@
+:root{
+    --coworks-white: #f8f9fa;
+    --coworks-green: #55ff74;
+    --coworks-blue: #1757a3;
+    --rvpark-red: #611e0b;
+    --rvpark-blue: #29363b;
+    --rvpark-burnt: #c39b61;
+}
+
+html, body{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--rvpark-burnt);
+    justify-content: space-around;
+    flex: 1;
+    flex-wrap: wrap;
+    margin:0;
+    padding:1em;
+    border:0;
+
+}
+.row
+{
+    display:flex;
+    justify-content: space-around;
+    gap:5em;
+    flex: 1;
+    flex-wrap: wrap;
+    
+}
+img
+{
+    border-style: solid;
+    border-width: thick;
+    border-radius: 1.2em;
+    border-color: var(--rvpark-red);
+}
+p, h1
+{
+    color: var(--rvpark-blue)
+}
