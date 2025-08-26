@@ -10,27 +10,59 @@
 html, body{
     min-height: 100vh;
     min-width: 100vw;
+    box-sizing: content-box;
 }
 body{
     display:flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--rvpark-burnt);
+    font-family: "Roboto", sans-serif;
     justify-content: space-around;
     flex: 1;
     flex-wrap: wrap;
-    margin:0;
-    padding:1em;
+    margin:5vmin;
+    padding:0;
     border:0;
 
 }
-.row
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    padding: 5%;
+    gap: 3vmin;
+}
+
+button {
+    background-color: var(--rvpark-red);
+    color: var(--rvpark-burnt);
+    border-radius: 10px;
+    width:6em;
+    border-style: none;
+    box-shadow: none;
+    transition: transform 0.2s;
+    font-size:20px;
+    padding: 0.3em;
+    box-shadow: 0px 0px 5px 5px rgba(147,99,79,0.4);
+}
+
+article
 {
     display:flex;
-    justify-content: space-around;
-    gap:5em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap:1em;
     flex: 1;
     flex-wrap: wrap;
+    padding:1em;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 1.2em;
+    border-color: var(--rvpark-blue);
+    box-shadow: 0px 0px 10px 10px rgba(147,99,79,0.4);
     
 }
 img
@@ -43,4 +75,14 @@ img
 p, h1
 {
     color: var(--rvpark-blue)
+    
+}
+h1, h2{
+    text-align: center;
+}
+h2{
+    color: var(--rvpark-blue)
+}
+p, h1, h2 {
+    text-size-adjust: auto;
 }
