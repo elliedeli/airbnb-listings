@@ -1,6 +1,6 @@
 :root{
     --coworks-white: #f8f9fa;
-    --coworks-green: #55ff74;
+    --coworks-green: #94f1a5;
     --coworks-blue: #1757a3;
     --rvpark-red: #611e0b;
     --rvpark-blue: #29363b;
@@ -16,7 +16,7 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--rvpark-burnt);
+    background-color: var(--coworks-white);
     font-family: "Roboto", sans-serif;
     justify-content: space-around;
     flex: 1;
@@ -36,16 +36,20 @@ body{
 }
 
 button {
-    background-color: var(--rvpark-red);
-    color: var(--rvpark-burnt);
+    background-color: rgba(139, 137, 199, 1);
+    color: var(--coworks-white);
     border-radius: 10px;
     width:6em;
     border-style: none;
     box-shadow: none;
     transition: transform 0.2s;
     font-size:20px;
+    font-weight: bolder;
     padding: 0.3em;
-    box-shadow: 0px 0px 5px 5px rgba(147,99,79,0.4);
+    border-color: var(--coworks-blue);
+    border-width: thick;
+    border-style:solid;
+    box-shadow: 0px 0px 5px 5px rgba(139, 137, 199, 0.4);
 }
 
 article
@@ -54,35 +58,72 @@ article
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap:1em;
     flex: 1;
     flex-wrap: wrap;
+    gap: 0.5em;
     padding:1em;
     border-style: solid;
     border-width: thick;
     border-radius: 1.2em;
-    border-color: var(--rvpark-blue);
-    box-shadow: 0px 0px 10px 10px rgba(147,99,79,0.4);
+    border-color: var(--coworks-blue);
+    box-shadow: 0px 0px 5px 5px rgba(139, 137, 199, 0.4);
     
+    
+}
+.info
+{
+    display:flex;
+    justify-content:space-between;
+    justify-self:stretch;
+    align-self:stretch;
+    width:100%;
+    text-align: left;
+    font-size: small;
+    list-style-type: none;
+    padding: 0;
+    color: rgba(139, 137, 199, 1);
+    margin: 0;
+    border: 0;
+    font-style: italic;
+}
+
+ul
+{
+    gap:1em;
 }
 img
 {
     border-style: solid;
     border-width: thick;
     border-radius: 1.2em;
-    border-color: var(--rvpark-red);
+    border-color: rgba(139, 137, 199, 1);
 }
 p, h1
 {
-    color: var(--rvpark-blue)
+    color: var(--coworks-blue)
     
 }
 h1, h2{
     text-align: center;
 }
 h2{
-    color: var(--rvpark-blue)
+    color: var(--coworks-blue)
 }
 p, h1, h2 {
     text-size-adjust: auto;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    text-align: center;
+    color: rgba(139, 137, 199, 1);
+    font-style: italic;
+}
+
+a{
+        color: var(--coworks-blue);
 }

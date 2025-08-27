@@ -15,7 +15,7 @@ function populateListings(obj){
         //create Elements based off Data   
         const listingArticle = document.createElement("article");
         const listingName = document.createElement("h2");
-        const listingInfo = document.createElement("ul");
+        const listingInfo = document.createElement("div");
         const listingDesc = document.createElement("p");
         const listingButton = document.createElement("button");
 
@@ -28,6 +28,24 @@ function populateListings(obj){
         console.log(listingUrl);
         var listingImageUrl = "./media/" + listing.id + ".jpeg";
         console.log(listingImageUrl);
+
+        //Description
+        const descList = document.createElement("ul");
+        const descBeds = document.createElement("li");
+        const descBaths = document.createElement("li");
+        const descBedrooms = document.createElement("li");
+        const descGuests = document.createElement("li");
+        descBeds.innerHTML = '<i class="fa-solid fa-bed"></i>   ' + listing.beds;
+        descBaths.innerHTML = '<i class="fa-solid fa-bath"></i>' + listing.beds;
+        descBedrooms.innerHTML = '<i class="fa-solid fa-door-closed"></i>' + listing.bedrooms;
+        descGuests.innerHTML = '<i class="fa-solid fa-users"></i>   ' + listing.guests;
+        descList.appendChild(descGuests);
+        descList.appendChild(descBedrooms);
+        descList.appendChild(descBeds);
+        descList.appendChild(descBaths);
+        descList.classList.add("info")
+        listingInfo.appendChild(descList);
+
 
         //image
         const listingImage = document.createElement("img");
@@ -45,6 +63,7 @@ function populateListings(obj){
         //appending Elements
         anchorElement.appendChild(listingButton)
         listingArticle.appendChild(listingName);
+        listingArticle.appendChild(listingInfo);
         listingArticle.appendChild(listingImage);
         listingArticle.appendChild(listingDesc);
         listingArticle.appendChild(anchorElement);
